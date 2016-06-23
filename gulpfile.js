@@ -33,13 +33,20 @@ gulp.task('minify', ['css:dist'], function () {
     .pipe(gulp.dest(destination + '/skin-bootstrap-extensions/'));
 });
 
-gulp.task('js', ['minify'],function() {
+gulp.task('js:min', ['minify'],function() {
   return gulp.src(source + '/*.js')
+    .pipe(gulp.dest(destination))
     .pipe(plugins.uglify())
     .pipe(plugins.rename({
       suffix: '.min'
-    }))    
+    }))
     .pipe(gulp.dest(destination));
 });
 
-gulp.task('prod', [ 'js']);
+
+gulp.task('js:copy', ['js:min'], function () {
+    return gulp.src(source + '/*.js')
+      .pipe(gulp.dest(destination));
+});
+
+gulp.task('prod', [ 'js:min']);
