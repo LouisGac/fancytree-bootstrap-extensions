@@ -44,9 +44,11 @@ gulp.task('js:min', ['minify'],function() {
 });
 
 
-gulp.task('js:copy', ['js:min'], function () {
+gulp.task('js:concat', ['js:min'], function () {
     return gulp.src(source + '/*.js')
-      .pipe(gulp.dest(destination));
+        .pipe(plugins.uglify())
+        .pipe(plugins.concat('jquery.fancytree.bsextensions.min.js'))
+        .pipe(gulp.dest(destination));
 });
 
-gulp.task('prod', [ 'js:min']);
+gulp.task('prod', [ 'js:concat']);

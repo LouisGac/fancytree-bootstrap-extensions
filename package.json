@@ -11,7 +11,8 @@
     "gulp-less": "latest",
     "gulp-load-plugins": "latest",
     "gulp-rename": "latest",
-    "gulp-uglify": "latest"
+    "gulp-uglify": "latest",
+    "gulp-concat": "latest"
   },
   "description": "Bootstrap 3 extensions for (Fancytree 2.x)",
   "directories": {

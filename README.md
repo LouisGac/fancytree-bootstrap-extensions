@@ -5,3 +5,7 @@ Bootstrap 3 extensions for  ([Fancytree 2.x](https://github.com/mar10/fancytree)
 Tooltip:
 
 ![sample](doc/fancytree-bsextension-tooltip.jpg?raw=true)
+
+Popover:
+
+![sample](doc/fancytree-bsextension-popover.jpg?raw=true)
