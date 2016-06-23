@@ -4,7 +4,7 @@
  * Generated bootstrap tooltip
  * (Extension module for jquery.fancytree.js: https://github.com/mar10/fancytree/)
  *
- * Copyright (c) 2008-2016, Louis-Sébastien Gac Artigas (http://wwWendt.de)
+ * Copyright (c) 2008-2016, Louis-Sébastien Gac Artigas
  * Released under the MIT license
  * https://github.com/LouisGac/fancytree-bootstrap-extensions
  *

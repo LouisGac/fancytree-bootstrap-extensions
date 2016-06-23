@@ -1,0 +1,30 @@
+{
+  "name": "fancytree-bootstrap-extensions",
+  "version": "1.0.0",
+  "devDependencies": {
+    "del": "^2.2.1",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "latest",
+    "gulp-cssbeautify": "latest",
+    "gulp-csscomb": "latest",
+    "gulp-csso": "latest",
+    "gulp-less": "latest",
+    "gulp-load-plugins": "latest",
+    "gulp-rename": "latest",
+    "gulp-uglify": "latest"
+  },
+  "description": "Bootstrap 3 extensions for (Fancytree 2.x)",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LouisGac/fancytree-bootstrap-extensions.git"
+  },
+  "author": "Louis-Sébastien Gac Artigas",
+  "license": "MIT Licence",
+  "bugs": {
+    "url": "https://github.com/LouisGac/fancytree-bootstrap-extensions/issues"
+  }
+}
