@@ -2,4 +2,4 @@
 
 Bootstrap 3 extensions for  ([Fancytree 2.x](https://github.com/mar10/fancytree))
 
-[ ![sample](doc/fancytree-bsextension-tooltip.jpg?raw=true) ]
+![sample](doc/fancytree-bsextension-tooltip.jpg?raw=true)
