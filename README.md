@@ -12,5 +12,8 @@ http://getbootstrap.com/javascript/#tooltips
 ## Popover:
 ![sample](doc/fancytree-bsextension-popover.jpg?raw=true)
 
-Use bootstrap popover on you tree nodes, using the bootstrap syntax.
-http://getbootstrap.com/javascript/#popovers
+
+## Buttons:
+![sample](doc/fancytree-bsextension-buttons.jpg?raw=true)
+
+Use bootstrap buttons on you tree nodes
